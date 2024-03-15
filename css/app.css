@@ -78,6 +78,13 @@ body, html {
   margin: 0;
   width: 50%;
 }
+.projects ul li .description a {
+  transition: color 0.2s ease;
+  text-decoration: underline;
+}
+.projects ul li .description a:hover {
+  color: #0960a8;
+}
 .projects ul li .banner {
   margin-bottom: 0.5em;
 }
@@ -86,6 +93,9 @@ body, html {
   width: 100%;
   height: 200px;
 }
+.projects ul li .webdesign img {
+  background-size: cover;
+}
 .projects ul li .title {
   font-weight: bold;
   color: #FFF;
@@ -93,7 +103,7 @@ body, html {
 }
 .projects ul li .title a {
   border-bottom: 1px dotted white;
-  transition: color 0.5s ease;
+  transition: color 0.2s ease;
 }
 .projects ul li .title a:hover {
   color: #0960a8;
